@@ -91,12 +91,12 @@ renderMatrix(currentMatrix)
 let mainInterval = setInterval(() => {
     nextStep() 
     document.getElementById("myau").play()
-}, 700
+}, 1000
 )
  
 setInterval(() => {
     addFood()
-}, 10
+}, 10000
 )
 
 document.addEventListener('keydown', function (event) {
